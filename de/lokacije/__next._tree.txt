@@ -1,0 +1,8 @@
+:HL["/smash-burger-bar/_next/static/chunks/0pglzrzc4fmdo.css","style"]
+:HL["/smash-burger-bar/_next/static/media/1c549cf76d17aa84-s.p.16tkg8k83dfcz.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/smash-burger-bar/_next/static/media/8eef5a389a468817-s.p.07-1nn69m0205.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/smash-burger-bar/_next/static/media/9e9f04e3c37952ab-s.p.0pan85mumqyf3.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/smash-burger-bar/_next/static/media/daf789e4474d0d90-s.p.07wt1b-68kohk.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/smash-burger-bar/_next/static/media/de4fe8b8184b9e48-s.p.1qpzh1hamo9ok.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/smash-burger-bar/_next/static/media/e24507cc2fd99222-s.p.3j_1nz5r9--0j.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+0:{"tree":{"name":"","param":null,"prefetchHints":0,"slots":{"children":{"name":"locale","param":{"type":"d","key":"de","siblings":null},"prefetchHints":16,"slots":{"children":{"name":"lokacije","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"0rCx0qEJM_Mnclibm4Re9"}
