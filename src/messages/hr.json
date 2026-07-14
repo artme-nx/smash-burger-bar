@@ -1,0 +1,278 @@
+{
+  "menu": {
+    "hero": {
+      "kicker": "Jelovnik",
+      "title": "Zagrizi ozbiljno",
+      "lead": "Dva cjenika, jedan smash. Biraj Classic ili Signature."
+    },
+    "switch": {
+      "classic": "Classic",
+      "signature": "Signature",
+      "classicSub": "Crveni cjenik",
+      "signatureSub": "Zlatni cjenik"
+    },
+    "picks": {
+      "kicker": "Naši favoriti",
+      "heading": "Odaberi svoj smash"
+    },
+    "card": {
+      "single": "Single",
+      "double": "Double",
+      "triple": "Triple",
+      "details": "Sastojci",
+      "add": "Dodaj",
+      "signatureTag": "Signature"
+    },
+    "sidesTitle": "Prilozi",
+    "drinksTitle": "Piće",
+    "cart": {
+      "title": "Tvoja narudžba",
+      "empty": "Košarica je prazna. Dodaj svoj smash.",
+      "total": "Ukupno",
+      "checkout": "Nastavi na dostavu",
+      "note": "Narudžba se dovršava na Woltu ili Glovu — ovo je pregled.",
+      "remove": "Ukloni"
+    },
+    "ing": {
+      "beef": "Juneća pljeskavica",
+      "crispyChicken": "Hrskava piletina",
+      "cheddar": "Cheddar",
+      "iceberg": "Iceberg salata",
+      "burgerSauce": "Burger umak",
+      "bbqSauce": "BBQ umak",
+      "truffleMayo": "Majoneza s tartufima",
+      "crispyOnions": "Hrskavi luk",
+      "caramelizedOnions": "Karamelizirani luk",
+      "bacon": "Panceta",
+      "jalapenos": "Jalapeño papričice",
+      "figJam": "Džem od smokve",
+      "spicyMayo": "Ljuta majoneza",
+      "onionSauce": "Umak od luka",
+      "sweetChili": "Sweet chili umak",
+      "honeyMustard": "Umak od meda i senfa"
+    },
+    "sides": {
+      "mozzarellaSticks": "Mozzarella štapići",
+      "truffleFries": "Pomfrit s tartufima",
+      "cheddarFries": "Pomfrit s cheddarom",
+      "sweetPotato": "Batat",
+      "frenchFries": "Pomfrit",
+      "onionRings": "Kolutići luka",
+      "truffleParmesanFries": "Pomfrit s tartufima i parmezanom",
+      "crispyCheddarFries": "Pomfrit s cheddarom i hrskavim lukom",
+      "chickenNuggets": "Pileći medaljoni",
+      "sweetPotatoFries": "Batat pomfrit"
+    },
+    "drinks": {
+      "cola": "Coca-Cola",
+      "colaZero": "Coca-Cola Zero",
+      "fanta": "Fanta",
+      "sprite": "Sprite",
+      "schweppes": "Schweppes",
+      "iceTea": "Ledeni čaj",
+      "water": "Voda",
+      "beer": "Ožujsko pivo"
+    },
+    "itemNote": {
+      "mozzarellaSticks": "Pohani štapići, rastopljena sredina",
+      "truffleFries": "Pomfrit s uljem tartufa",
+      "cheddarFries": "Pomfrit preliven cheddarom",
+      "sweetPotato": "Batat, prirodno slatkast",
+      "frenchFries": "Zlatni, hrskavi klasik",
+      "onionRings": "Pohani kolutići luka",
+      "truffleParmesanFries": "Tartuf i parmezan",
+      "crispyCheddarFries": "Cheddar i hrskavi luk",
+      "chickenNuggets": "Hrskavi pileći zalogaji",
+      "sweetPotatoFries": "Pomfrit od batata",
+      "cola": "0,33 l",
+      "colaZero": "0,33 l",
+      "fanta": "0,33 l",
+      "sprite": "0,33 l",
+      "schweppes": "0,33 l",
+      "iceTea": "0,33 l",
+      "water": "0,33 l · negazirana / gazirana",
+      "beer": "0,5 l · točeno"
+    }
+  },
+  "locationsPage": {
+    "hero": {
+      "kicker": "Lokacije",
+      "title": "Dvije lokacije",
+      "lead": "Isti smash, dva mjesta u Splitu."
+    },
+    "hoursLabel": "Radno vrijeme",
+    "phoneLabel": "Telefon",
+    "directions": "Upute",
+    "phoneTbd": "Uskoro",
+    "classic": {
+      "tag": "Classic",
+      "hours": "Pon–čet 11:00–23:00 · Pet–sub 11:00–24:00 · Ned 11:00–23:30"
+    },
+    "signature": {
+      "tag": "Signature",
+      "hours": "Uskoro objavljujemo"
+    }
+  },
+  "contactPage": {
+    "hero": {
+      "kicker": "Kontakt",
+      "title": "Javi se",
+      "lead": "Pitanje, pohvala ili čista žudnja za burgerom? Piši nam."
+    },
+    "form": {
+      "name": "Ime",
+      "namePh": "Tvoje ime",
+      "email": "Email",
+      "emailPh": "tvoj@email.com",
+      "message": "Poruka",
+      "messagePh": "Reci nam…",
+      "submit": "Pošalji",
+      "sent": "Hvala! Javljamo se uskoro.",
+      "note": "Forma je demo — spaja se na email kad klijent potvrdi.",
+      "title": "Piši nam"
+    },
+    "instaCta": "Prati nas na Instagramu"
+  },
+  "ingredientsPage": {
+    "hero": {
+      "kicker": "Sastojci",
+      "title": "Što je unutra",
+      "lead": "Jednostavne stvari, napravljene kako treba."
+    },
+    "farm": {
+      "kicker": "Od polja do zalogaja",
+      "heading": "Bez kompliciranja",
+      "p": "Kratka lista, svježe namirnice, ništa skriveno. Ono što ide u burger i sam vidiš."
+    },
+    "story": {
+      "kicker": "Priča u svakom zalogaju",
+      "heading": "Svaki sastojak ima ulogu"
+    },
+    "items": {
+      "bun": {
+        "name": "Pecivo",
+        "desc": "Mekano, prepečeno na plancu — dovoljno čvrsto da drži sve na okupu."
+      },
+      "patty": {
+        "name": "Pljeskavica",
+        "desc": "Juneća, smrskana na vrućem plancu za hrskavu koricu."
+      },
+      "cheese": {
+        "name": "Cheddar",
+        "desc": "Otopljen preko vruće pljeskavice, kako i treba."
+      },
+      "tomato": {
+        "name": "Rajčica",
+        "desc": "Svježa, narezana svaki dan."
+      },
+      "lettuce": {
+        "name": "Iceberg salata",
+        "desc": "Hrskava i hladna, za kontrast."
+      }
+    }
+  },
+  "home": {
+    "hero": {
+      "kicker": "Split · dvije lokacije",
+      "labelLeft": "Svježe smrskano",
+      "labelRight": "Puni okus",
+      "titleLine1": "Smash",
+      "titleLine2": "Time",
+      "lead": "Smash burgeri smrskani na vrućem plancu. Dvije lokacije u Splitu, isti standard.",
+      "tag1": "Svježe smashano",
+      "tag2": "oči su mi gore",
+      "tag3": "griz koji pamtiš",
+      "tag4": "Split — dvije lokacije"
+    },
+    "about": {
+      "kicker": "Tehnika",
+      "heading": "Smrskano na plancu",
+      "p1": "Svaku pljeskavicu pritisnemo na vrući planc dok ne uhvati hrskavu, karameliziranu koricu. To je smash — više okusa, više teksture, ništa suvišno.",
+      "p2": "Domaći pecivo, cheddar koji se topi, svježe povrće i umaci koje radimo sami. Dvije lokacije u Splitu, isti standard u svakom zalogaju."
+    },
+    "classic": {
+      "kicker": "Top classic",
+      "line1": "Sočno,",
+      "line2": "sirasto,",
+      "line3": "nabijeno okusom.",
+      "line": "Karamelizirana <patty>pljeskavica</patty>, domaće pecivo, svježe povrće i <stamp>TOP SECRET</stamp> umaci. To je <smash>SMASH</smash>."
+    },
+    "experience": {
+      "kicker": "Doživljaj",
+      "heading": "Hrana koja godi",
+      "card1Title": "Classic Smash",
+      "card1Meta": "Svježe · Ručno rađeno · Na plancu",
+      "card2Title": "Double Truffle",
+      "card2Meta": "Domaći umaci · Cheddar · Hrskavo"
+    },
+    "layers": {
+      "kicker": "Svaki sloj",
+      "heading": "Sloj po sloj",
+      "lead": "Ništa nasumično. Svaki sastojak ima svoje mjesto — od donjeg peciva do posljednjeg reza cheddara.",
+      "bunTop": "Gornje pecivo",
+      "lettuce": "Iceberg salata",
+      "tomato": "Rajčica",
+      "cheese": "Cheddar",
+      "patty": "Dvije pljeskavice",
+      "bunBottom": "Donje pecivo",
+      "note": "Slaže se sam pred tobom"
+    },
+    "takeaway": {
+      "kicker": "Za ponijeti",
+      "heading": "Uzmi sa sobom",
+      "lead": "Dvije lokacije u Splitu, dostava preko Wolta i Glova.",
+      "classicTag": "Classic",
+      "signatureTag": "Signature"
+    },
+    "feel": {
+      "kicker": "Osjeti smash",
+      "heading": "Jednom kad probaš, znaš.",
+      "lead": "Naruči i uzmi svoj smash — za stolom ili za ponijeti."
+    },
+    "gallery": {
+      "kicker": "Galerija",
+      "title": "Iz našeg planca"
+    }
+  },
+  "nav": {
+    "home": "Početna",
+    "menu": "Meni",
+    "ingredients": "Sastojci",
+    "locations": "Lokacije",
+    "contact": "Kontakt"
+  },
+  "common": {
+    "orderNow": "Naruči odmah",
+    "order": "Naruči",
+    "viewMenu": "Pogledaj meni",
+    "delivery": "Dostava",
+    "wolt": "Wolt",
+    "glovo": "Glovo",
+    "classic": "Classic",
+    "signature": "Signature",
+    "instagram": "Instagram"
+  },
+  "preloader": {
+    "line": "SMASH SE PRIPREMA",
+    "steps": [
+      "Tostiramo bun…",
+      "Smashamo pljeskavicu…",
+      "Topimo cheddar…"
+    ]
+  },
+  "header": {
+    "tagline": "Split, Hrvatska — dvije lokacije",
+    "menuLabel": "Meni",
+    "closeLabel": "Zatvori",
+    "openMenu": "Otvori izbornik",
+    "language": "Jezik"
+  },
+  "footer": {
+    "tagline": "Smrskano na plancu, servirano u Splitu.",
+    "navTitle": "Stranice",
+    "orderTitle": "Naruči",
+    "followTitle": "Prati nas",
+    "company": "SMASH BURGERS J.D.O.O. · OIB 38670769250",
+    "rights": "Sva prava pridržana."
+  }
+}

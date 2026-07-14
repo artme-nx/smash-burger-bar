@@ -1,0 +1,278 @@
+{
+  "menu": {
+    "hero": {
+      "kicker": "Menu",
+      "title": "Eat like you mean it",
+      "lead": "Two price lists, one smash. Pick Classic or Signature."
+    },
+    "switch": {
+      "classic": "Classic",
+      "signature": "Signature",
+      "classicSub": "Red list",
+      "signatureSub": "Gold list"
+    },
+    "picks": {
+      "kicker": "Our picks",
+      "heading": "Choose your smash"
+    },
+    "card": {
+      "single": "Single",
+      "double": "Double",
+      "triple": "Triple",
+      "details": "Ingredients",
+      "add": "Add",
+      "signatureTag": "Signature"
+    },
+    "sidesTitle": "Sides",
+    "drinksTitle": "Drinks",
+    "cart": {
+      "title": "Your order",
+      "empty": "Your cart is empty. Add your smash.",
+      "total": "Total",
+      "checkout": "Continue to delivery",
+      "note": "Checkout completes on Wolt or Glovo — this is a preview.",
+      "remove": "Remove"
+    },
+    "ing": {
+      "beef": "Beef patty",
+      "crispyChicken": "Crispy chicken",
+      "cheddar": "Cheddar",
+      "iceberg": "Iceberg lettuce",
+      "burgerSauce": "Burger sauce",
+      "bbqSauce": "BBQ sauce",
+      "truffleMayo": "Truffle mayo",
+      "crispyOnions": "Crispy onions",
+      "caramelizedOnions": "Caramelized onions",
+      "bacon": "Bacon",
+      "jalapenos": "Jalapeños",
+      "figJam": "Fig jam",
+      "spicyMayo": "Spicy mayo",
+      "onionSauce": "Onion sauce",
+      "sweetChili": "Sweet chili sauce",
+      "honeyMustard": "Honey mustard"
+    },
+    "sides": {
+      "mozzarellaSticks": "Mozzarella sticks",
+      "truffleFries": "Truffle fries",
+      "cheddarFries": "Cheddar fries",
+      "sweetPotato": "Sweet potato",
+      "frenchFries": "French fries",
+      "onionRings": "Onion rings",
+      "truffleParmesanFries": "Truffle parmesan fries",
+      "crispyCheddarFries": "Crispy cheddar fries",
+      "chickenNuggets": "Chicken nuggets",
+      "sweetPotatoFries": "Sweet potato fries"
+    },
+    "drinks": {
+      "cola": "Coca-Cola",
+      "colaZero": "Coca-Cola Zero",
+      "fanta": "Fanta",
+      "sprite": "Sprite",
+      "schweppes": "Schweppes",
+      "iceTea": "Iced tea",
+      "water": "Water",
+      "beer": "Ožujsko beer"
+    },
+    "itemNote": {
+      "mozzarellaSticks": "Breaded sticks, melty centre",
+      "truffleFries": "Fries with truffle oil",
+      "cheddarFries": "Fries loaded with cheddar",
+      "sweetPotato": "Sweet potato, naturally sweet",
+      "frenchFries": "Golden, crispy classic",
+      "onionRings": "Breaded onion rings",
+      "truffleParmesanFries": "Truffle and parmesan",
+      "crispyCheddarFries": "Cheddar and crispy onions",
+      "chickenNuggets": "Crispy chicken bites",
+      "sweetPotatoFries": "Sweet potato fries",
+      "cola": "0.33 l",
+      "colaZero": "0.33 l",
+      "fanta": "0.33 l",
+      "sprite": "0.33 l",
+      "schweppes": "0.33 l",
+      "iceTea": "0.33 l",
+      "water": "0.33 l · still / sparkling",
+      "beer": "0.5 l · draught"
+    }
+  },
+  "locationsPage": {
+    "hero": {
+      "kicker": "Locations",
+      "title": "Two locations",
+      "lead": "Same smash, two spots in Split."
+    },
+    "hoursLabel": "Opening hours",
+    "phoneLabel": "Phone",
+    "directions": "Directions",
+    "phoneTbd": "Coming soon",
+    "classic": {
+      "tag": "Classic",
+      "hours": "Mon–Thu 11:00–23:00 · Fri–Sat 11:00–24:00 · Sun 11:00–23:30"
+    },
+    "signature": {
+      "tag": "Signature",
+      "hours": "Announced soon"
+    }
+  },
+  "contactPage": {
+    "hero": {
+      "kicker": "Contact",
+      "title": "Say hello",
+      "lead": "A question, a compliment, or a plain burger craving? Drop us a line."
+    },
+    "form": {
+      "name": "Name",
+      "namePh": "Your name",
+      "email": "Email",
+      "emailPh": "you@email.com",
+      "message": "Message",
+      "messagePh": "Tell us…",
+      "submit": "Send",
+      "sent": "Thanks! We'll be in touch soon.",
+      "note": "This form is a demo — wire it to email once the client confirms.",
+      "title": "Write to us"
+    },
+    "instaCta": "Follow us on Instagram"
+  },
+  "ingredientsPage": {
+    "hero": {
+      "kicker": "Ingredients",
+      "title": "What's inside",
+      "lead": "Simple things, done right."
+    },
+    "farm": {
+      "kicker": "From farm to bite",
+      "heading": "No complicating it",
+      "p": "A short list, fresh produce, nothing hidden. What goes into the burger, you can see for yourself."
+    },
+    "story": {
+      "kicker": "A story in every bite",
+      "heading": "Every ingredient has a role"
+    },
+    "items": {
+      "bun": {
+        "name": "Bun",
+        "desc": "Soft, toasted on the griddle — sturdy enough to hold it all together."
+      },
+      "patty": {
+        "name": "Patty",
+        "desc": "Beef, smashed on a hot griddle for a crisp crust."
+      },
+      "cheese": {
+        "name": "Cheddar",
+        "desc": "Melted over the hot patty, the way it should be."
+      },
+      "tomato": {
+        "name": "Tomato",
+        "desc": "Fresh, sliced every day."
+      },
+      "lettuce": {
+        "name": "Iceberg lettuce",
+        "desc": "Crisp and cold, for the contrast."
+      }
+    }
+  },
+  "home": {
+    "hero": {
+      "kicker": "Split · two locations",
+      "labelLeft": "Freshly smashed",
+      "labelRight": "Full flavour",
+      "titleLine1": "Smash",
+      "titleLine2": "Time",
+      "lead": "Smash burgers pressed on a hot griddle. Two locations in Split, one standard.",
+      "tag1": "Freshly smashed",
+      "tag2": "eyes up here",
+      "tag3": "a bite you’ll remember",
+      "tag4": "Split — two locations"
+    },
+    "about": {
+      "kicker": "The technique",
+      "heading": "Smashed on the griddle",
+      "p1": "We press every patty onto a screaming-hot griddle until it catches a crisp, caramelised crust. That's the smash — more flavour, more texture, nothing extra.",
+      "p2": "House buns, cheddar that actually melts, fresh produce and sauces we make ourselves. Two locations in Split, the same standard in every bite."
+    },
+    "classic": {
+      "kicker": "Top classic",
+      "line1": "Juicy,",
+      "line2": "cheesy,",
+      "line3": "fully loaded.",
+      "line": "Caramelized <patty>patty</patty>, house-made buns, fresh veg and <stamp>TOP SECRET</stamp> sauces. That’s <smash>SMASH</smash>."
+    },
+    "experience": {
+      "kicker": "The experience",
+      "heading": "Food that feels good",
+      "card1Title": "Classic Smash",
+      "card1Meta": "Fresh · Handmade · On the griddle",
+      "card2Title": "Double Truffle",
+      "card2Meta": "House sauces · Cheddar · Crispy"
+    },
+    "layers": {
+      "kicker": "Every layer",
+      "heading": "Layer by layer",
+      "lead": "Nothing random. Every ingredient has its place — from the bottom bun to the last slice of cheddar.",
+      "bunTop": "Top bun",
+      "lettuce": "Iceberg lettuce",
+      "tomato": "Tomato",
+      "cheese": "Cheddar",
+      "patty": "Two patties",
+      "bunBottom": "Bottom bun",
+      "note": "The layers stack themselves in front of you"
+    },
+    "takeaway": {
+      "kicker": "Take away",
+      "heading": "Take it with you",
+      "lead": "Two locations in Split, delivery via Wolt and Glovo.",
+      "classicTag": "Classic",
+      "signatureTag": "Signature"
+    },
+    "feel": {
+      "kicker": "Feel the smash",
+      "heading": "One bite and you know.",
+      "lead": "Order and grab your smash — at the table or to go."
+    },
+    "gallery": {
+      "kicker": "Gallery",
+      "title": "Straight off the griddle"
+    }
+  },
+  "nav": {
+    "home": "Home",
+    "menu": "Menu",
+    "ingredients": "Ingredients",
+    "locations": "Locations",
+    "contact": "Contact"
+  },
+  "common": {
+    "orderNow": "Order now",
+    "order": "Order",
+    "viewMenu": "View menu",
+    "delivery": "Delivery",
+    "wolt": "Wolt",
+    "glovo": "Glovo",
+    "classic": "Classic",
+    "signature": "Signature",
+    "instagram": "Instagram"
+  },
+  "preloader": {
+    "line": "SMASHING IT FRESH",
+    "steps": [
+      "Toasting the bun…",
+      "Smashing the patty…",
+      "Melting the cheddar…"
+    ]
+  },
+  "header": {
+    "tagline": "Split, Croatia — two locations",
+    "menuLabel": "Menu",
+    "closeLabel": "Close",
+    "openMenu": "Open menu",
+    "language": "Language"
+  },
+  "footer": {
+    "tagline": "Smashed on the griddle, served in Split.",
+    "navTitle": "Pages",
+    "orderTitle": "Order",
+    "followTitle": "Follow us",
+    "company": "SMASH BURGERS J.D.O.O. · VAT 38670769250",
+    "rights": "All rights reserved."
+  }
+}

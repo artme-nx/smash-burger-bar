@@ -1,26 +1,191 @@
 @import "tailwindcss";
+@import "./tokens.css";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
+/* Map design tokens → Tailwind theme so utilities (bg-background, text-primary,
+   font-display, …) resolve to our semantic/component variables. */
 @theme inline {
   --color-background: var(--background);
+  --color-background-alt: var(--background-alt);
+  --color-surface: var(--surface);
+  --color-surface-red: var(--surface-red);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-on-red: var(--on-red);
+  --color-border: var(--border);
+
+  --color-primary: var(--primary);
+  --color-primary-strong: var(--primary-strong);
+  --color-primary-foreground: var(--primary-foreground);
+
+  --color-sticker-bg: var(--sticker-bg);
+  --color-sticker-fg: var(--sticker-fg);
+  --color-outline-ink: var(--outline-ink);
+  --color-stroke-cream: var(--stroke-cream);
+
+  --color-signature: var(--signature);
+  --color-signature-bright: var(--signature-bright);
+  --color-signature-deep: var(--signature-deep);
+
+  --font-display: var(--type-display);
+  --font-body: var(--type-body);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+:root {
+  color-scheme: light;
+}
+
+* {
+  min-width: 0;
+}
+
+html {
+  /* Lenis drives scrolling; keep native smooth off to avoid conflicts. */
+  scroll-behavior: auto;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--type-body);
+  font-size: var(--type-body-size);
+  line-height: var(--type-body-leading);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden;
+}
+
+::selection {
+  background: var(--primary);
+  color: var(--primary-foreground);
+}
+
+/* --- Type primitives ----------------------------------------------------- */
+
+/* Bubbly display (Modak) */
+.display {
+  font-family: var(--type-display);
+  font-weight: 400;
+  letter-spacing: var(--tracking-display);
+  line-height: 0.95;
+}
+
+/* Playful label (Mouse Memoirs, spaced caps) — the "BURGER BAR" motif */
+.label {
+  font-family: var(--type-body);
+  font-size: var(--type-label-size);
+  text-transform: uppercase;
+  letter-spacing: var(--tracking-label);
+  line-height: 1;
+}
+
+/* Sticker headline: thick cream outline drawn *around* the fill.
+   paint-order:stroke puts the stroke behind the fill so the letter stays crisp. */
+.sticker-text {
+  font-family: var(--type-display);
+  color: var(--primary);
+  -webkit-text-stroke: var(--sticker-text-stroke) var(--stroke-cream);
+  paint-order: stroke fill;
+  text-transform: uppercase;
+  line-height: 0.9;
+}
+.sticker-text.on-red {
+  color: var(--on-red);
+  -webkit-text-stroke-color: var(--outline-ink);
+}
+
+/* Hover roll: two stacked text copies swap on hover of the link/button */
+.roll {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  vertical-align: bottom;
+}
+.roll > .roll-a,
+.roll > .roll-b {
+  display: block;
+  transition: transform 0.42s var(--ease-snap);
+}
+.roll > .roll-b {
+  position: absolute;
+  inset: 0;
+  /* Over-translate past 100% so tall glyphs (Modak) fully clear the clip box —
+     line-height can be < font-size, which left a ~5px sliver of the outgoing
+     word visible ("letter traces"). Pure transform, no layout impact. */
+  transform: translateY(120%);
+}
+.roll:hover > .roll-a,
+a:hover .roll > .roll-a,
+button:hover .roll > .roll-a {
+  transform: translateY(-120%);
+}
+.roll:hover > .roll-b,
+a:hover .roll > .roll-b,
+button:hover .roll > .roll-b {
+  transform: translateY(0%);
+}
+
+/* Ingredient cursor — pointer devices only, added by the CustomCursor component.
+   While active the native cursor is hidden; over interactive elements the
+   component removes .cursor-hidden so the native pointer returns. */
+html.cursor-hidden,
+html.cursor-hidden * {
+  cursor: none;
+}
+.cursor-ingredient {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 200;
+  width: 42px;
+  height: 42px;
+  margin: -21px 0 0 -21px;
+  pointer-events: none;
+  opacity: 0;
+  will-change: transform;
+  transition: opacity 0.15s ease;
+  filter: drop-shadow(2px 3px 0 rgba(74, 21, 32, 0.22));
+}
+@media (prefers-reduced-motion: reduce) {
+  .cursor-ingredient { display: none; }
+  .roll > .roll-a, .roll > .roll-b { transition: none; }
+}
+
+/* Sticker-card: cream panel, thick ink outline, hard offset shadow */
+.card-cartoon {
+  background: var(--surface);
+  border: 3px solid var(--outline-ink);
+  border-radius: var(--radius);
+  box-shadow: 6px 6px 0 var(--outline-ink);
+}
+
+/* --- Layout helpers ------------------------------------------------------ */
+.container-wide {
+  width: 100%;
+  max-width: var(--primitive-size-container-wide);
+  margin-inline: auto;
+  padding-inline: var(--primitive-size-gutter);
+}
+.container-content {
+  width: 100%;
+  max-width: var(--primitive-size-container-content);
+  margin-inline: auto;
+  padding-inline: var(--primitive-size-gutter);
+}
+.container-full {
+  width: 100%;
+  max-width: var(--primitive-size-container-full);
+  margin-inline: auto;
+  padding-inline: var(--primitive-size-gutter);
+}
+
+/* --- Accessibility ------------------------------------------------------- */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
 }

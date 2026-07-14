@@ -1,0 +1,278 @@
+{
+  "menu": {
+    "hero": {
+      "kicker": "Menu",
+      "title": "Mangia sul serio",
+      "lead": "Due listini, un solo smash. Scegli Classic o Signature."
+    },
+    "switch": {
+      "classic": "Classic",
+      "signature": "Signature",
+      "classicSub": "Listino rosso",
+      "signatureSub": "Listino oro"
+    },
+    "picks": {
+      "kicker": "I nostri preferiti",
+      "heading": "Scegli il tuo smash"
+    },
+    "card": {
+      "single": "Single",
+      "double": "Double",
+      "triple": "Triple",
+      "details": "Ingredienti",
+      "add": "Aggiungi",
+      "signatureTag": "Signature"
+    },
+    "sidesTitle": "Contorni",
+    "drinksTitle": "Bevande",
+    "cart": {
+      "title": "Il tuo ordine",
+      "empty": "Il carrello è vuoto. Aggiungi il tuo smash.",
+      "total": "Totale",
+      "checkout": "Continua alla consegna",
+      "note": "L'ordine si completa su Wolt o Glovo — questa è un'anteprima.",
+      "remove": "Rimuovi"
+    },
+    "ing": {
+      "beef": "Hamburger di manzo",
+      "crispyChicken": "Pollo croccante",
+      "cheddar": "Cheddar",
+      "iceberg": "Lattuga iceberg",
+      "burgerSauce": "Salsa burger",
+      "bbqSauce": "Salsa BBQ",
+      "truffleMayo": "Maionese al tartufo",
+      "crispyOnions": "Cipolle croccanti",
+      "caramelizedOnions": "Cipolle caramellate",
+      "bacon": "Bacon",
+      "jalapenos": "Jalapeños",
+      "figJam": "Marmellata di fichi",
+      "spicyMayo": "Maionese piccante",
+      "onionSauce": "Salsa di cipolle",
+      "sweetChili": "Salsa sweet chili",
+      "honeyMustard": "Salsa miele e senape"
+    },
+    "sides": {
+      "mozzarellaSticks": "Mozzarella sticks",
+      "truffleFries": "Patatine al tartufo",
+      "cheddarFries": "Patatine al cheddar",
+      "sweetPotato": "Patata dolce",
+      "frenchFries": "Patatine fritte",
+      "onionRings": "Anelli di cipolla",
+      "truffleParmesanFries": "Patatine tartufo e parmigiano",
+      "crispyCheddarFries": "Patatine cheddar croccanti",
+      "chickenNuggets": "Chicken nuggets",
+      "sweetPotatoFries": "Patatine di patata dolce"
+    },
+    "drinks": {
+      "cola": "Coca-Cola",
+      "colaZero": "Coca-Cola Zero",
+      "fanta": "Fanta",
+      "sprite": "Sprite",
+      "schweppes": "Schweppes",
+      "iceTea": "Tè freddo",
+      "water": "Acqua",
+      "beer": "Birra Ožujsko"
+    },
+    "itemNote": {
+      "mozzarellaSticks": "Bastoncini panati, cuore filante",
+      "truffleFries": "Patatine all'olio di tartufo",
+      "cheddarFries": "Patatine ricoperte di cheddar",
+      "sweetPotato": "Patata dolce, naturalmente dolce",
+      "frenchFries": "Dorate, croccante classico",
+      "onionRings": "Anelli di cipolla panati",
+      "truffleParmesanFries": "Tartufo e parmigiano",
+      "crispyCheddarFries": "Cheddar e cipolla croccante",
+      "chickenNuggets": "Bocconcini di pollo croccanti",
+      "sweetPotatoFries": "Patatine di patata dolce",
+      "cola": "0,33 l",
+      "colaZero": "0,33 l",
+      "fanta": "0,33 l",
+      "sprite": "0,33 l",
+      "schweppes": "0,33 l",
+      "iceTea": "0,33 l",
+      "water": "0,33 l · naturale / frizzante",
+      "beer": "0,5 l · alla spina"
+    }
+  },
+  "locationsPage": {
+    "hero": {
+      "kicker": "Sedi",
+      "title": "Due sedi",
+      "lead": "Lo stesso smash, due posti a Spalato."
+    },
+    "hoursLabel": "Orari",
+    "phoneLabel": "Telefono",
+    "directions": "Indicazioni",
+    "phoneTbd": "Presto",
+    "classic": {
+      "tag": "Classic",
+      "hours": "Lun–Gio 11:00–23:00 · Ven–Sab 11:00–24:00 · Dom 11:00–23:30"
+    },
+    "signature": {
+      "tag": "Signature",
+      "hours": "Presto disponibile"
+    }
+  },
+  "contactPage": {
+    "hero": {
+      "kicker": "Contatti",
+      "title": "Scrivici",
+      "lead": "Una domanda, un complimento o solo voglia di burger? Scrivici."
+    },
+    "form": {
+      "name": "Nome",
+      "namePh": "Il tuo nome",
+      "email": "Email",
+      "emailPh": "tu@email.com",
+      "message": "Messaggio",
+      "messagePh": "Dicci…",
+      "submit": "Invia",
+      "sent": "Grazie! Ti risponderemo presto.",
+      "note": "Questo modulo è una demo — collegalo all'email quando il cliente conferma.",
+      "title": "Scrivici"
+    },
+    "instaCta": "Seguici su Instagram"
+  },
+  "ingredientsPage": {
+    "hero": {
+      "kicker": "Ingredienti",
+      "title": "Cosa c'è dentro",
+      "lead": "Cose semplici, fatte bene."
+    },
+    "farm": {
+      "kicker": "Dal campo al morso",
+      "heading": "Senza complicarla",
+      "p": "Una lista corta, prodotti freschi, niente di nascosto. Quello che finisce nel burger lo vedi da te."
+    },
+    "story": {
+      "kicker": "Una storia in ogni morso",
+      "heading": "Ogni ingrediente ha il suo ruolo"
+    },
+    "items": {
+      "bun": {
+        "name": "Pane",
+        "desc": "Morbido, tostato sulla piastra — abbastanza saldo da tenere tutto insieme."
+      },
+      "patty": {
+        "name": "Hamburger",
+        "desc": "Manzo, schiacciato sulla piastra rovente per una crosta croccante."
+      },
+      "cheese": {
+        "name": "Cheddar",
+        "desc": "Sciolto sull'hamburger caldo, come dev'essere."
+      },
+      "tomato": {
+        "name": "Pomodoro",
+        "desc": "Fresco, tagliato ogni giorno."
+      },
+      "lettuce": {
+        "name": "Lattuga iceberg",
+        "desc": "Croccante e fredda, per il contrasto."
+      }
+    }
+  },
+  "home": {
+    "hero": {
+      "kicker": "Spalato · due sedi",
+      "labelLeft": "Appena schiacciato",
+      "labelRight": "Gusto pieno",
+      "titleLine1": "Smash",
+      "titleLine2": "Time",
+      "lead": "Smash burger schiacciati sulla piastra rovente. Due sedi a Spalato, un unico standard.",
+      "tag1": "Appena schiacciato",
+      "tag2": "occhi quassù",
+      "tag3": "un morso da ricordare",
+      "tag4": "Split — due sedi"
+    },
+    "about": {
+      "kicker": "La tecnica",
+      "heading": "Schiacciato sulla piastra",
+      "p1": "Schiacciamo ogni hamburger sulla piastra rovente finché non prende una crosta croccante e caramellata. Questo è lo smash — più gusto, più consistenza, niente di superfluo.",
+      "p2": "Pane fatto in casa, cheddar che si scioglie davvero, verdure fresche e salse fatte da noi. Due sedi a Spalato, lo stesso standard in ogni morso."
+    },
+    "classic": {
+      "kicker": "Top classic",
+      "line1": "Succoso,",
+      "line2": "filante,",
+      "line3": "pieno di gusto.",
+      "line": "<patty>Hamburger</patty> croccante, pane fatto in casa, verdure fresche e salse <stamp>TOP SECRET</stamp>. Questo è <smash>SMASH</smash>."
+    },
+    "experience": {
+      "kicker": "L'esperienza",
+      "heading": "Cibo che fa stare bene",
+      "card1Title": "Classic Smash",
+      "card1Meta": "Fresco · Fatto a mano · Sulla piastra",
+      "card2Title": "Double Truffle",
+      "card2Meta": "Salse della casa · Cheddar · Croccante"
+    },
+    "layers": {
+      "kicker": "Ogni strato",
+      "heading": "Strato dopo strato",
+      "lead": "Niente a caso. Ogni ingrediente ha il suo posto — dal pane inferiore all'ultima fetta di cheddar.",
+      "bunTop": "Pane superiore",
+      "lettuce": "Lattuga iceberg",
+      "tomato": "Pomodoro",
+      "cheese": "Cheddar",
+      "patty": "Due hamburger",
+      "bunBottom": "Pane inferiore",
+      "note": "Gli strati si impilano da soli"
+    },
+    "takeaway": {
+      "kicker": "Da asporto",
+      "heading": "Portalo con te",
+      "lead": "Due sedi a Spalato, consegna tramite Wolt e Glovo.",
+      "classicTag": "Classic",
+      "signatureTag": "Signature"
+    },
+    "feel": {
+      "kicker": "Senti lo smash",
+      "heading": "Un morso e lo sai.",
+      "lead": "Ordina e prendi il tuo smash — al tavolo o da asporto."
+    },
+    "gallery": {
+      "kicker": "Galleria",
+      "title": "Dritto dalla piastra"
+    }
+  },
+  "nav": {
+    "home": "Home",
+    "menu": "Menu",
+    "ingredients": "Ingredienti",
+    "locations": "Sedi",
+    "contact": "Contatti"
+  },
+  "common": {
+    "orderNow": "Ordina ora",
+    "order": "Ordina",
+    "viewMenu": "Vedi il menu",
+    "delivery": "Consegna",
+    "wolt": "Wolt",
+    "glovo": "Glovo",
+    "classic": "Classic",
+    "signature": "Signature",
+    "instagram": "Instagram"
+  },
+  "preloader": {
+    "line": "SMASH IN PREPARAZIONE",
+    "steps": [
+      "Tostiamo il pane…",
+      "Schiacciamo l'hamburger…",
+      "Sciogliamo il cheddar…"
+    ]
+  },
+  "header": {
+    "tagline": "Spalato, Croazia — due sedi",
+    "menuLabel": "Menu",
+    "closeLabel": "Chiudi",
+    "openMenu": "Apri il menu",
+    "language": "Lingua"
+  },
+  "footer": {
+    "tagline": "Schiacciato sulla piastra, servito a Spalato.",
+    "navTitle": "Pagine",
+    "orderTitle": "Ordina",
+    "followTitle": "Seguici",
+    "company": "SMASH BURGERS J.D.O.O. · P.IVA 38670769250",
+    "rights": "Tutti i diritti riservati."
+  }
+}

@@ -1,0 +1,149 @@
+/* Design Tokens - Auto-generated from design/tokens.json */
+/* Do not edit directly - modify tokens.json instead */
+
+/* === PRIMITIVES === */
+:root {
+  /* cream — warm paper base */
+  --primitive-color-cream-50:  #FBF1E1;
+  --primitive-color-cream-100: #F5E3CD;
+  --primitive-color-cream-200: #EED8BC;
+  --primitive-color-cream-300: #E4C9A6;
+  /* ketchup — bright red accent */
+  --primitive-color-ketchup-400: #FF3A32;
+  --primitive-color-ketchup-500: #F91814;
+  --primitive-color-ketchup-600: #D8120F;
+  --primitive-color-ketchup-700: #A50F0C;
+  /* ink — dark bordo-brown text */
+  --primitive-color-ink-900: #3A1620;
+  --primitive-color-ink-700: #5A2530;
+  /* gold — signature tier only */
+  --primitive-color-gold-300: #FBE29A;
+  --primitive-color-gold-400: #E5C77C;
+  --primitive-color-gold-500: #D4AF5A;
+  --primitive-color-gold-700: #8A6E2E;
+  /* sticker labels */
+  --primitive-color-sticker-orange: #FBAF2B;
+  --primitive-color-sticker-yellow: #F5C043;
+  /* cartoon ingredient palette (SVG) */
+  --primitive-color-cartoon-outline: #4A1520;
+  --primitive-color-cartoon-bun: #F0913F;
+  --primitive-color-cartoon-bun-shadow: #D9772E;
+  --primitive-color-cartoon-bun-hi: #FBBE7A;
+  --primitive-color-cartoon-lettuce: #7CBB45;
+  --primitive-color-cartoon-lettuce-shadow: #5E9A33;
+  --primitive-color-cartoon-tomato: #E4443A;
+  --primitive-color-cartoon-tomato-shadow: #C6362E;
+  --primitive-color-cartoon-cheese: #F5C043;
+  --primitive-color-cartoon-cheese-shadow: #E0A82E;
+  --primitive-color-cartoon-patty: #9C5A33;
+  --primitive-color-cartoon-patty-shadow: #7E4526;
+  /* curtain wipe */
+  --primitive-color-curtain-red: #F91814;
+  --primitive-color-curtain-orange: #F0913F;
+  --primitive-color-curtain-bordo: #7A1512;
+  --primitive-color-curtain-cream: #F5E3CD;
+
+  --primitive-font-logo: var(--font-anton), 'Anton', 'Arial Narrow', sans-serif;
+  --primitive-font-display: var(--font-modak), 'Modak', system-ui, sans-serif;
+  --primitive-font-body: var(--font-mouse), 'Mouse Memoirs', system-ui, sans-serif;
+
+  --primitive-motion-duration-micro: 180ms;
+  --primitive-motion-duration-base: 300ms;
+  --primitive-motion-duration-reveal: 900ms;
+  --primitive-motion-duration-cine: 1.6s;
+  --primitive-motion-ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+  --primitive-motion-ease-pop: cubic-bezier(0.34, 1.56, 0.64, 1);
+  --primitive-motion-ease-snap: cubic-bezier(0.22, 1, 0.36, 1);
+
+  --primitive-tracking-display: 0.01em;
+  --primitive-tracking-label: 0.18em;
+
+  --primitive-space-3xs: 0.25rem;
+  --primitive-space-2xs: 0.5rem;
+  --primitive-space-xs: 0.75rem;
+  --primitive-space-sm: 1rem;
+  --primitive-space-md: 1.5rem;
+  --primitive-space-lg: 2rem;
+  --primitive-space-xl: 3rem;
+  --primitive-space-2xl: 4rem;
+  --primitive-space-3xl: 6rem;
+  --primitive-space-4xl: 8rem;
+  --primitive-space-5xl: 10rem;
+
+  --primitive-size-container-narrow: 42rem;
+  --primitive-size-container-content: 68rem;
+  --primitive-size-container-wide: 84rem;
+  --primitive-size-container-full: 96rem;
+  --primitive-size-gutter: clamp(1.25rem, 5vw, 5rem);
+
+  --primitive-radius-sm: 0.75rem;
+  --primitive-radius-md: 1.25rem;
+  --primitive-radius-lg: 2rem;
+  --primitive-radius-pill: 999px;
+}
+
+/* === SEMANTIC === */
+:root {
+  --background: #F5E3CD;
+  --background-alt: #FBF1E1;
+  --surface: #FBF1E1;
+  --surface-red: #F91814;
+  --foreground: #3A1620;
+  --muted-foreground: #5A2530;
+  --on-red: #F5E3CD;
+  --border: #4A1520;
+
+  --primary: #F91814;
+  --primary-strong: #D8120F;
+  --primary-foreground: #F5E3CD;
+  --ring: #F91814;
+
+  --sticker-bg: #FBAF2B;
+  --sticker-fg: #3A1620;
+  --outline-ink: #4A1520;
+  --stroke-cream: #FBF1E1;
+
+  --signature: #D4AF5A;
+  --signature-bright: #E5C77C;
+  --signature-deep: #8A6E2E;
+  --signature-foreground: #3A1620;
+
+  --radius: 1.25rem;
+  --radius-pill: 999px;
+
+  --type-logo: var(--font-anton), 'Anton', 'Arial Narrow', sans-serif;
+  --type-display: var(--font-modak), 'Modak', system-ui, sans-serif;
+  --type-body: var(--font-mouse), 'Mouse Memoirs', system-ui, sans-serif;
+
+  --ease-reveal: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-pop: cubic-bezier(0.34, 1.56, 0.64, 1);
+  --ease-snap: cubic-bezier(0.22, 1, 0.36, 1);
+  --duration-micro: 180ms;
+  --duration-base: 300ms;
+  --duration-reveal: 900ms;
+
+  --tracking-display: 0.01em;
+  --tracking-label: 0.18em;
+}
+
+/* === COMPONENTS === */
+:root {
+  --type-hero-size: clamp(3.5rem, 20vw, 18rem);
+  --type-hero-leading: 0.9;
+  --type-display1-size: clamp(3rem, 10vw, 9rem);
+  --type-display2-size: clamp(2.25rem, 6vw, 5rem);
+  --type-section-size: clamp(1.75rem, 4vw, 3.5rem);
+  --type-body-lg: 1.35rem;
+  --type-body-size: 1.15rem;
+  --type-body-leading: 1.35;
+  --type-label-size: 0.95rem;
+
+  --sticker-text-stroke: clamp(3px, 0.9vw, 10px);
+  --sticker-letter-rotate: 3deg;
+
+  --button-primary-bg: #F91814;
+  --button-primary-fg: #F5E3CD;
+  --button-primary-hover-bg: #3A1620;
+  --button-ghost-border: #4A1520;
+  --button-ghost-fg: #3A1620;
+}
