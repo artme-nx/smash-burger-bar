@@ -1,0 +1,8 @@
+Smash Burger Bar — Split
+
+Live:  https://artme-nx.github.io/smash-burger-bar/
+Repo:  https://github.com/artme-nx/smash-burger-bar
+Objavljeno: 2026-07-14
+
+Jezici: /hr/ (default), /en/, /de/, /it/
+Deploy: npm run deploy  (build → out/ + root redirect + .nojekyll → force push gh-pages)
