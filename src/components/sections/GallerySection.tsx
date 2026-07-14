@@ -6,7 +6,6 @@ import { StickerLabel } from "@/components/ui/Sticker";
 import g1 from "../../../public/img/galerija/g1.webp";
 import g2 from "../../../public/img/galerija/g2.webp";
 import g3 from "../../../public/img/galerija/g3.webp";
-import g4 from "../../../public/img/galerija/g4.webp";
 import g5 from "../../../public/img/galerija/g5.webp";
 import g6 from "../../../public/img/galerija/g6.webp";
 import g7 from "../../../public/img/galerija/g7.webp";
@@ -22,7 +21,6 @@ const IMAGES = [
   { src: g1.src, title: "Dupli smash" },
   { src: g2.src, title: "Cheddar na plancu" },
   { src: g3.src, title: "Smash u srcu Splita" },
-  { src: g4.src, title: "Slanina & cheddar" },
   { src: g5.src, title: "Slaganje na plancu" },
   { src: g6.src, title: "Smash & Dioklecijan" },
   { src: g7.src, title: "Svježe mljeveno" },

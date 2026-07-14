@@ -73,8 +73,11 @@ export function Layers() {
 
   return (
     <section ref={root} className="bg-background-alt py-24 sm:py-32">
-      <div className="container-wide grid items-center gap-14 lg:grid-cols-2">
-        <div className="max-w-xl">
+      {/* Source order intro → burger → list. On mobile that stacks as burger
+          ABOVE the ingredient list (as requested); on lg the burger becomes the
+          right column, vertically centred beside the intro + list. */}
+      <div className="container-wide grid gap-10 sm:gap-14 lg:grid-cols-2">
+        <div className="max-w-xl lg:col-start-1 lg:row-start-1">
           <StickerLabel rotate={-3} className="mb-6">
             {t("kicker")}
           </StickerLabel>
@@ -84,27 +87,30 @@ export function Layers() {
             style={{ fontSize: "var(--type-display2-size)" }}
           />
           <p className="mt-8 max-w-md text-lg text-muted-foreground">{t("lead")}</p>
-
-          <ul className="mt-8 flex flex-col gap-2">
-            {LAYERS.map((layer) => (
-              <li
-                key={layer.id}
-                className="card-cartoon flex items-center gap-3 px-5 py-3"
-              >
-                <span
-                  className="h-4 w-4 shrink-0 rounded-full"
-                  style={{ background: layer.dot, border: "2px solid var(--outline-ink)" }}
-                  aria-hidden="true"
-                />
-                <span className="label text-foreground">{t(layer.key)}</span>
-              </li>
-            ))}
-          </ul>
         </div>
 
-        <div className="flex items-center justify-center">
-          <CartoonBurger className="w-full max-w-[520px]" title={t("heading")} />
+        <div className="flex items-center justify-center lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:self-center">
+          <CartoonBurger
+            className="w-[72%] max-w-[380px] lg:w-full lg:max-w-[520px]"
+            title={t("heading")}
+          />
         </div>
+
+        <ul className="flex flex-col gap-2 lg:col-start-1 lg:row-start-2">
+          {LAYERS.map((layer) => (
+            <li
+              key={layer.id}
+              className="card-cartoon flex items-center gap-3 px-5 py-3"
+            >
+              <span
+                className="h-4 w-4 shrink-0 rounded-full"
+                style={{ background: layer.dot, border: "2px solid var(--outline-ink)" }}
+                aria-hidden="true"
+              />
+              <span className="label text-foreground">{t(layer.key)}</span>
+            </li>
+          ))}
+        </ul>
       </div>
     </section>
   );
