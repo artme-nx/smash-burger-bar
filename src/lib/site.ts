@@ -3,9 +3,9 @@
  * PLACEHOLDER values are marked; klijent potvrđuje prije objave.
  */
 
-// PLACEHOLDER: klijent potvrđuje prave linkove dostave (točan restoran na Wolt/Glovo)
-export const WOLT_URL = "https://wolt.com/";
-export const GLOVO_URL = "https://glovoapp.com/";
+// Smash Burger Bar (Trogirska 1, Split) — profili restorana na dostavnim platformama
+export const WOLT_URL = "https://wolt.com/hr/hrv/split/restaurant/smash-burger-bar";
+export const GLOVO_URL = "https://glovoapp.com/hr/hr/split/stores/smash-burger-bar-spu";
 export const INSTAGRAM_URL = "https://instagram.com/smash.burger.bar";
 export const INSTAGRAM_HANDLE = "@smash.burger.bar";
 

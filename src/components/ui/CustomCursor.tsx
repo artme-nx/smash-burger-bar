@@ -36,46 +36,60 @@ export function CustomCursor() {
       html.classList.toggle("cursor-hidden", on);
     };
 
-    const move = (e: PointerEvent) => {
-      // Track 1:1 with the pointer — no smoothing, so it behaves like a real
-      // cursor instead of a floaty icon lagging behind the click point.
-      el.style.transform = `translate3d(${e.clientX}px, ${e.clientY}px, 0)`;
-      const interactive = (e.target as Element)?.closest(
-        "a, button, input, textarea, select, label, [role='button']",
-      );
-      setVisible(!interactive);
-    };
-    const hide = () => setVisible(false);
+    // Last known pointer Y — the icon follows the section UNDER THE
+    // POINTER (not the viewport middle), so it swaps the moment you cross a
+    // section edge, whether you move the mouse or scroll underneath it.
+    let py = -1;
 
-    // Swap the icon based on which <section> holds the viewport middle.
+    // Swap the icon based on which top-level <section> is under the pointer.
+    // Nested sections are skipped so the icon index stays stable per block.
+    let current = -1;
     const pickIcon = () => {
-      const mid = window.innerHeight / 2;
-      const secs = Array.from(document.querySelectorAll("section"));
-      let idx = 0;
+      if (py < 0) return;
+      const secs = Array.from(document.querySelectorAll("section")).filter(
+        (s) => !s.parentElement?.closest("section"),
+      );
+      let idx = -1;
       for (let i = 0; i < secs.length; i++) {
         const r = secs[i].getBoundingClientRect();
-        if (r.top <= mid && r.bottom >= mid) {
+        if (py >= r.top && py < r.bottom) {
           idx = i;
           break;
         }
       }
+      if (idx < 0 || idx === current) return; // header/footer: keep last icon
+      current = idx;
       setIcon(idx % CURSOR_ICONS.length);
     };
+
     let ticking = false;
-    const onScroll = () => {
+    const schedulePick = () => {
       if (ticking) return;
       ticking = true;
       requestAnimationFrame(() => {
-        pickIcon();
         ticking = false;
+        pickIcon();
       });
     };
+
+    const move = (e: PointerEvent) => {
+      // Track 1:1 with the pointer — no smoothing, so it behaves like a real
+      // cursor instead of a floaty icon lagging behind the click point.
+      el.style.transform = `translate3d(${e.clientX}px, ${e.clientY}px, 0)`;
+      py = e.clientY;
+      const interactive = (e.target as Element)?.closest(
+        "a, button, input, textarea, select, label, [role='button']",
+      );
+      setVisible(!interactive);
+      schedulePick();
+    };
+    const hide = () => setVisible(false);
+    const onScroll = schedulePick;
 
     window.addEventListener("pointermove", move);
     document.addEventListener("pointerleave", hide);
     window.addEventListener("blur", hide);
     window.addEventListener("scroll", onScroll, { passive: true });
-    pickIcon();
 
     return () => {
       window.removeEventListener("pointermove", move);
